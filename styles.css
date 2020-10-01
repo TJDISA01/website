@@ -1,5 +1,9 @@
-body{
-    margin: 25px
+html {
+    background-color: grey;
+}
+body {
+    margin: 25px;
+    background-color: white;
 }
 
 table, th, td {
@@ -10,4 +14,21 @@ table, th, td {
 a {
     color: black;
     text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a.easter_egg {
+    color: white;
+}
+
+.gaming_table{
+    width: 75%;
+}
+
+button {
+    font-size: xx-small;
 }
